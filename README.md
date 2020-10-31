@@ -10,3 +10,5 @@ predicts survival in liver hepatocellular carcinoma after hepatectomy](https://d
 
 ## Citations
 Fu, Q., Yang, F., Xiang, T. et al. A novel microRNA signature predicts survival in liver hepatocellular carcinoma after hepatectomy. Sci Rep 8, 7933 (2018). https://doi.org/10.1038/s41598-018-26374-9
+
+Goldman, M.J., Craft, B., Hastie, M. et al. Visualizing and interpreting cancer genomics data via the Xena platform. Nat Biotechnol (2020). https://doi.org/10.1038/s41587-020-0546-8
