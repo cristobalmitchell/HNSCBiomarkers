@@ -7,7 +7,7 @@ This analysis, written in R, looks at microRNA (miRNA) sequences and clinical da
 
 ## Materials and Methods
 ### TCGA dataset
-A total of 2246 miRNA expression profiles in HNSC patients along with their corresponding clinical and survival data were downloaded from the GDC TCGA data portal using [UCSC's Xena Browser](https://xenabrowser.net/datapages/?cohort=GDC%20TCGA%20Head%20and%20Neck%20Cancer%20(HNSC)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443) data hub (September 2020). Patients without lymphovascular invasion present data and follow-up less than 30 days were removed. Additionally, miRNA expression profiles with more then 30% missing values were also excluded from the analysis resulting in 233 patient observations with 646 miRNA expression profiles.
+A total of 2246 miRNA expression profiles in HNSC patients along with their corresponding clinical and survival data were downloaded from the GDC TCGA data portal using [UCSC's Xena Browser](https://xenabrowser.net/datapages/?cohort=GDC%20TCGA%20Head%20and%20Neck%20Cancer%20(HNSC)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443) data hub (September 2020). Patients without lymphovascular invasion present data and follow-up less than 30 days were removed. Additionally, miRNA expression profiles with more then 30% missing values were also excluded from the analysis resulting in 233 patient observations with 646 miRNA expression profiles. Missing miRNA expression profiles were subsequently imputed using the missForest package which is a nonparametric missing value imputation using random forest.
 
 ### Identification of dysregulated miRNAs in HNSC
 
