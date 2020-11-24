@@ -13,6 +13,10 @@ A total of 2246 miRNA expression profiles in HNSC patients along with their corr
 The raw counts of miRNA expression data of 43 HNSC patients with their paired normal tissues were obtained from the TCGA dataset using the [TCGA2STAT](http://www.liuzlab.org/TCGA2STAT/) library. The miRNAs with missing values were imputed using the same missForest package mentioned previously aand were then normaalized using log2(x+1). miRNA expressions shared between the TCGA dataset and the match paired datasets were subsequently evaluated using univariate logistic regression and those with p-values < 0.05 were considered to be differentiaally expressed miRNA aand included for subsequent analysis. The resulting 28 significant miRNAs consisted of 7 down regulated miRNA expresions and 21 up regulated.
 
 ### Identification of miRNAs with prognostic score in HNSC
+To identify common miRNAs related to LVI within each of the subgroups stratified by the clinical stage, a semi-supervised method and univariate Cox regression analysis were used, and HR > 1 or HR < 1 with P < 0.05 was used as the cutoff11,15. The patient subclasses in each group of clinical characteristics represented non-overlapping sets.
+
+### Definition of prognostic risk model and ROC curve analysis
+The TCGA data were randomly divided into a training and testing set. A semi-supervised principal components (SPC) method was used to select significant miRNAs and develop the linear miRNA signature prognostic model11. The prognostic score was calculated as follows: Prognostic score = (2.307831 × hsa-mir-187) + (hsa-mir-9-3 × 2.553812) + (hsa-mir-490 × 2.726262) + (hsa-mir-1258 × 2.217082) − (hsa-mir-3144 × 2.660158) + (hsa-mir-551a × 3.428998) + (hsa-mir-665 × 2.855964). The prognostic scores were then computed for all 318 patients. The optimal cutoff point of the prognostic score was obtained in ROC curve analysis for predicting the 5-year survival of the training set. Kaplan-Meier and log-rank methods were used for evaluating OS16. Time-dependent ROC curves were used to evaluate the predicted power of the miRNA-based signature model.
 
 ## Results
 
