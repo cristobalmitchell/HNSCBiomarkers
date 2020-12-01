@@ -28,6 +28,7 @@ The common miRNAs associated with LVI were characterized with the univariate Cox
 ### Validation of the four-miRNA signature in HNSC patients. 
 Using the optimum cutoff value obtained from the training set, patients were assigned to high-risk and low-risk groups. The ability of the four-miRNA signature to predict 5-year survival prognostication was examined in the testing set and in all HNSC patients. The results failed to indicate that patients in the high-risk group had poor OS, nor that patients in the low-risk group had good outcomes in the training set (P > 0.05, with the log-rank test method) and in the entire HNSC cohort (P > 0.05).
 
+<img src="/images/Kaplan_Meier_Risk.png" />
 
 
 ## Acknowledgements
