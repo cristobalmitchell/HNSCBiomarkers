@@ -25,6 +25,8 @@ After filtering out unqualified cases with a follow-up of less than 30 days, a t
 ### Establishment of the miRNA prognostic model. 
 The common miRNAs associated with LVI were characterized with the univariate Cox regression method. Four miRNAs were selected using stepwise backward feature selection for a logistic regression model using the training set. Thereafter, we developed a miRNA prognostic model for diagnosis in the HNSC cohort. According to ROC curve, the optimum cutoff point was calculated and used for classifying the patients into high-risk and low-risk groups. This analysis showed the prognostic scores and miRNA expression distribution of all 233 patients and 43 pairs of solid tumour normal tissues, which were ranked according to the prognostic scores for the four-miRNA signature. It indicated that the patients with higher prognostic scores showed a tendency towards expression of high-risk miRNAs, whereas patients with low prognostic scores showed a tendency towards non-protective miRNA expression.
 
+<img src="/images/ROC_prog_threshold.png" />
+
 ### Validation of the four-miRNA signature in HNSC patients. 
 Using the optimum cutoff value obtained from the training set, patients were assigned to high-risk and low-risk groups. The ability of the four-miRNA signature to predict 5-year survival prognostication was examined in the testing set and in all HNSC patients. The results failed to indicate that patients in the high-risk group had poor OS, nor that patients in the low-risk group had good outcomes in the training set (P > 0.05, with the log-rank test method) and in the entire HNSC cohort (P > 0.05).
 
