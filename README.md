@@ -5,7 +5,6 @@ Over the next dozen years, TCGA generated over 2.5 petabytes of genomic, epigeno
 
 This analysis, written in R, looks at [microRNA (miRNA)](https://en.wikipedia.org/wiki/MicroRNA) sequences and clinical data for Head and Neck Squamous Cell Carcoma (HNSC) from TCGA attempting to identify statistically significant biomarkers indicating lymphovascular invasion (LVI) presence to group patients in high and low risk classes and predicting survival. With [A novel microRNA signature predicts survival in liver hepatocellular carcinoma after hepatectomy](https://doi.org/10.1038/s41598-018-26374-9) as inspiration, this analysis was completed under the supervision of [Dr. Moumita Karmakar](https://stat.tamu.edu/people/#all-k) as a capstone project for STAT 685 while completing an MS in Applied Statistics at Texas A&M University in Fall 2020. 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Examples_of_microRNA_stem-loops.jpg" />
 
 ## Materials and Methods
 ### TCGA dataset
